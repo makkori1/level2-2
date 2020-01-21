@@ -121,13 +121,13 @@ width:100%;
   height: auto;
 }
 
-.sevice{
+.service{
 
   margin:0 auto;
   max-width: 1080px;
   margin-top: 120px;
 }
-.sevice p{
+.service p{
   font-size: 20px;
   font-weight: bold;
   margin-top: 30px;
@@ -307,11 +307,11 @@ small{
  display: block;
  padding-top: 10px;
 }
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1079px){
 
 
   .home{
-max-width: 84%;
+padding:0 70px
   }
   .header-box{
     margin-top: 150px;
@@ -326,18 +326,18 @@ max-width: 84%;
     font-size: 28px;
   }
 
-  .sevice{
-    max-width: 84%;
+  .service{
+    padding: 0 70px;
   }
   .service-inner:nth-child(2) {
     padding: 0 15px;
 }
 .about{
-  max-width:84% ;
+ padding:0 70px;
 
 }
 .news{
-  max-width: 84%;
+padding: 0 70px;
 
 }
 .news-box{
@@ -347,13 +347,16 @@ max-width: 84%;
   max-width: 500px;
 }
 .footer-box{
-  max-width: 84%;
+ padding:0 70px;
 }
 .footer-txt a{
   padding:0 4px ;
 }
 }
 @media screen and (max-width: 767px){
+  .home{
+    padding: 0 30px;
+  }
   h1{
     font-size: 28px;
   }
@@ -365,14 +368,21 @@ max-width: 84%;
     font-size: 28px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: unset;
+    transform: none;
   }
   h2::after{
-    width: 25%;
+    margin-left: 16px;
     right:0;
+    position:unset;
+    width: 50%
   }
   h2::before{
-    width: 25%;
-    left:0;
+  margin-right: 16px;
+  left:0;
+  position: unset;
+  width:50%;
   }
   h4{
     font-size: 16px;
@@ -431,8 +441,9 @@ max-width: 84%;
   display: block;
 }
 
-.sevice{
+.service{
   margin-top: 100px;
+  padding:0 30px;
 }
  .service-box{
    flex-direction: column;
@@ -453,6 +464,7 @@ max-width: 84%;
 
 .about{
   margin-top: 100px;
+padding: 0 30px;
 }
  .about-inner{
   flex-direction: column;
@@ -476,10 +488,7 @@ max-width: 84%;
     width: 100%;
     margin: 0;
   }
- .about-box{
-  max-width: 84%;
-  margin: auto;
- }
+
   .about-inner-2 .about-img {
     margin-right: 0;
 }
@@ -493,12 +502,10 @@ max-width: 84%;
     margin-left: 0;
   }
 
-  .news{
-    max-width: 84%;
-
-  }
+.news{
+  padding:0 30px;
+}
    .news-box{
- 
      margin-top: 100px;
    }
    .news-inner{
@@ -516,9 +523,7 @@ max-width: 84%;
    text-align:center;
    padding: 30px 0 20px 0;
  }
- .footer-box{
-   width:84%;
- }
+
    .footer-box, .footer-txt{
      flex-direction: column;
    }
@@ -540,21 +545,35 @@ max-width: 84%;
    }
   }
 @media screen and (max-width:375px){
-  .nav{
+  .home{
+    padding: 0 ;
     max-width:345px;
-    margin: auto;
+  }
+  .nav{
+
     margin-top: 11px;
   }
+  .service{
+    padding: 0 ;
+    max-width: 345px;
+  }
   .about{
+    max-width: 345px;
+    padding: 0;
+  }
+  .news{
+    padding: 0;
     max-width: 345px;
   }
 .news-box{
   max-width: 345px;
-  margin:0 auto;
   margin-top: 80px;
 }
 .news-img{
   max-width: 300px;
+}
+.footer-box{
+  padding: 0;
 }
 }
 @media screen and (max-width: 345px){
@@ -571,12 +590,12 @@ max-width: 84%;
     height: 20px;
 }
 .service{
-  max-width: 84%;
+  padding: 0 15px;
 }
 .about{
-  max-width: 84%;
+  padding: 0 15px;
 }
   .news{
-    max-width: 84%;
+    padding: 0 15px;
   }
 }
