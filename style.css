@@ -84,7 +84,6 @@ p{
 .header-txt{
 align-self: center;
 }
-
 .header-txt p:first-of-type{
     font-size: 36px;
    font-weight: bold;
@@ -135,10 +134,7 @@ width:100%;
 .service-box{
   display: flex;
   justify-content: space-around;
-
   margin-top: 109px;
-
-
 }
 .service-inner{
   width:204px;
@@ -150,7 +146,6 @@ width:100%;
 .service-inner img{
  width:100%;
 }
-
 .about{
   max-width:1080px;
   margin: auto;
@@ -195,9 +190,7 @@ margin: 30px 0;
   box-shadow: 0px 11px 20px #00000029;
 }
 
-
 .news{
-
 margin: auto;
 max-width: 1080px;
 margin-top: 120px;
@@ -287,19 +280,22 @@ footer img{
   display: flex;
 
 }
-.footer-txt a{
+.footer-txt li{
 padding: 0 18px;
 border-left: 1px solid #000;
 height:20px;
 display: inline-block;
-color: #000;
-text-decoration: none;
+
 font-size: 14px;
 }
-.footer-txt a:last-of-type{
+.footer-txt a{
+  color: #000;
+  text-decoration: none;
+}
+.footer-txt li:last-of-type{
   padding-right: 0;
 }
-.footer-txt a:first-of-type{
+.footer-txt li:first-of-type{
   border-left:  initial;
 }
 small{
@@ -320,7 +316,7 @@ padding:0 70px
     width:110px;
   }
   .header-txt button:nth-of-type(2){
-    width:155px;
+    width:165px;
   }
   .header-txt p:first-of-type{
     font-size: 28px;
@@ -334,11 +330,9 @@ padding:0 70px
 }
 .about{
  padding:0 70px;
-
 }
 .news{
 padding: 0 70px;
-
 }
 .news-box{
   margin-top: 100px;
@@ -349,7 +343,7 @@ padding: 0 70px;
 .footer-box{
  padding:0 70px;
 }
-.footer-txt a{
+.footer-txt li{
   padding:0 4px ;
 }
 }
@@ -443,7 +437,7 @@ padding: 0 70px;
 
 .service{
   margin-top: 100px;
-  padding:0 30px;
+  padding:0 15px;
 }
  .service-box{
    flex-direction: column;
@@ -464,7 +458,7 @@ padding: 0 70px;
 
 .about{
   margin-top: 100px;
-padding: 0 30px;
+padding: 0 15px;
 }
  .about-inner{
   flex-direction: column;
@@ -488,7 +482,6 @@ padding: 0 30px;
     width: 100%;
     margin: 0;
   }
-
   .about-inner-2 .about-img {
     margin-right: 0;
 }
@@ -503,7 +496,7 @@ padding: 0 30px;
   }
 
 .news{
-  padding:0 30px;
+  padding:0 15px;
 }
    .news-box{
      margin-top: 100px;
@@ -530,7 +523,7 @@ padding: 0 30px;
    .footer-txt{
      margin-right: initial;
    }
-   .footer-txt a{
+   .footer-txt li{
      border-left: initial;
      padding-top: 12px;
    }
@@ -545,25 +538,8 @@ padding: 0 30px;
    }
   }
 @media screen and (max-width:375px){
-  .home{
-    padding: 0 ;
-    max-width:345px;
-  }
   .nav{
-
     margin-top: 11px;
-  }
-  .service{
-    padding: 0 ;
-    max-width: 345px;
-  }
-  .about{
-    max-width: 345px;
-    padding: 0;
-  }
-  .news{
-    padding: 0;
-    max-width: 345px;
   }
 .news-box{
   max-width: 345px;
@@ -572,14 +548,9 @@ padding: 0 30px;
 .news-img{
   max-width: 300px;
 }
-.footer-box{
-  padding: 0;
-}
 }
 @media screen and (max-width: 345px){
-  .home{
-    max-width: 84%;
-  }
+
   .nav button{
       width: 100px;
       height: 30px;
@@ -589,13 +560,4 @@ padding: 0 30px;
     width: 80px;
     height: 20px;
 }
-.service{
-  padding: 0 15px;
-}
-.about{
-  padding: 0 15px;
-}
-  .news{
-    padding: 0 15px;
-  }
 }
