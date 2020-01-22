@@ -307,32 +307,29 @@ small{
 
 
   .home{
-padding:0 70px
+padding:0 15px
   }
   .header-box{
     margin-top: 150px;
   }
-  .header-txt button:nth-of-type(1){
-    width:110px;
-  }
-  .header-txt button:nth-of-type(2){
-    width:165px;
-  }
+ .header-button{
+   display: flex;
+ }
   .header-txt p:first-of-type{
     font-size: 28px;
   }
 
   .service{
-    padding: 0 70px;
+    padding: 0 15px;
   }
   .service-inner:nth-child(2) {
     padding: 0 15px;
 }
 .about{
- padding:0 70px;
+ padding:0 15px;
 }
 .news{
-padding: 0 70px;
+padding: 0 15px;
 }
 .news-box{
   margin-top: 100px;
@@ -341,11 +338,9 @@ padding: 0 70px;
   max-width: 500px;
 }
 .footer-box{
- padding:0 70px;
+ padding:0 15px;
 }
-.footer-txt li{
-  padding:0 4px ;
-}
+
 }
 @media screen and (max-width: 767px){
   .home{
