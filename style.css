@@ -49,10 +49,10 @@ p{
 }
 
 .nav{
-  margin-top: 11px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 11px 0;
 }
 .nav img{
   width:130px;
@@ -75,7 +75,7 @@ p{
 }
 .header-box{
   display: flex;
-  margin-top: 150px;
+  margin-top: 80px;
   justify-content: space-between;
 }
 .smp{
@@ -139,6 +139,7 @@ width:100%;
 .service-inner{
   width:204px;
   text-align: center;
+  white-space: nowrap;
 }
 .service-inner:nth-child(2){
  padding: 0 100px;
@@ -234,6 +235,7 @@ height: 100%;
  display: inline-block;
  text-align: center;
 line-height: 26px;
+font-weight: bold;
 }
 .news-txt p:nth-of-type(1){
   margin: 20px 0 15px 0;
@@ -249,6 +251,9 @@ line-height: 26px;
   font-size: 18px;
   border-radius: 24px;
 margin-bottom: 100px;
+}
+time{
+  font-weight: bold;
 }
 .time-1{
   margin-right: 28px;
@@ -343,9 +348,6 @@ padding: 0 15px;
 
 }
 @media screen and (max-width: 767px){
-  .home{
-    padding: 0 30px;
-  }
   h1{
     font-size: 28px;
   }
@@ -376,9 +378,6 @@ padding: 0 15px;
   h4{
     font-size: 16px;
   }
-  .nav{
-    margin-top: 11px;
-  }
   .nav img{
   width: 110px;
   height:28px;
@@ -386,7 +385,7 @@ padding: 0 15px;
   .header-box{
     flex-direction: column;
     justify-content: center;
-    margin-top: 21px;
+    margin-top: 10px;
   }
   .header-txt{
     order: 2;
@@ -432,12 +431,10 @@ padding: 0 15px;
 
 .service{
   margin-top: 100px;
-  padding:0 15px;
 }
  .service-box{
    flex-direction: column;
    margin-top: 80px;
-
  }
  .service-inner:nth-child(2){
   padding: 0 ;
@@ -453,7 +450,6 @@ padding: 0 15px;
 
 .about{
   margin-top: 100px;
-padding: 0 15px;
 }
  .about-inner{
   flex-direction: column;
@@ -490,9 +486,6 @@ padding: 0 15px;
     margin-left: 0;
   }
 
-.news{
-  padding:0 15px;
-}
    .news-box{
      margin-top: 100px;
    }
@@ -533,9 +526,7 @@ padding: 0 15px;
    }
   }
 @media screen and (max-width:375px){
-  .nav{
-    margin-top: 11px;
-  }
+
 .news-box{
   max-width: 345px;
   margin-top: 80px;
