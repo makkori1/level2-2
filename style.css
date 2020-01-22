@@ -1,4 +1,6 @@
-
+body{
+  font-family: YuGothic,'Yu Gothic',sans-serif;
+}
 button{
   outline: 0;
   border: none;
@@ -6,6 +8,7 @@ button{
   box-shadow: 3px 3px  10px #00000029;
   background-color: #109954;
   color: #FFFFFF;
+  font-weight: bold;
 }
 
 h2{
@@ -121,7 +124,6 @@ width:100%;
 }
 
 .service{
-
   margin:0 auto;
   max-width: 1080px;
   margin-top: 120px;
@@ -135,14 +137,18 @@ width:100%;
   display: flex;
   justify-content: space-around;
   margin-top: 109px;
+  padding: 0 140px;
 }
 .service-inner{
-  width:204px;
+
   text-align: center;
   white-space: nowrap;
 }
 .service-inner:nth-child(2){
  padding: 0 100px;
+}
+.service-img{
+  width:200px;
 }
 .service-inner img{
  width:100%;
@@ -151,6 +157,9 @@ width:100%;
   max-width:1080px;
   margin: auto;
   margin-top: 120px;
+}
+.about-box{
+  padding: 70px;
 }
 .about-inner{
   display: flex;
@@ -197,12 +206,13 @@ max-width: 1080px;
 margin-top: 120px;
 }
 .news-box{
-  
+  padding:40px;
   margin-top: 100px;
 }
-.news-box:nth-last-of-type(1){
+.news-box li:nth-last-of-type(1){
   border-bottom: 1px solid #707070;
 }
+
 .news-inner{
   display: flex;
   padding: 36px 0 53px 0;
@@ -324,12 +334,14 @@ padding:0 15px
   .service{
     padding: 0 15px;
   }
+
   .service-inner:nth-child(2) {
-    padding: 0 15px;
+    padding: 0 40px;
 }
 .about{
  padding:0 15px;
 }
+
 .news{
 padding: 0 15px;
 }
@@ -432,6 +444,7 @@ padding: 0 15px;
  .service-box{
    flex-direction: column;
    margin-top: 80px;
+   padding: 0;
  }
  .service-inner:nth-child(2){
   padding: 0 ;
@@ -447,6 +460,9 @@ padding: 0 15px;
 
 .about{
   margin-top: 100px;
+}
+.about-box{
+  padding: 0;
 }
  .about-inner{
   flex-direction: column;
@@ -485,6 +501,7 @@ padding: 0 15px;
 
    .news-box{
      margin-top: 100px;
+     padding: 0;
    }
    .news-inner{
      flex-direction: column;
